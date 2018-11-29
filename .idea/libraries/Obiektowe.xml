@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Obiektowe">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Obiektowe/out/artifacts/Obiektowe_jar/Obiektowe.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
