@@ -148,7 +148,11 @@ public class Controller {
             dataTable.getColumns().add(column);
         }
         int a=0;
-        for(;a<20;a++){
+        int size=20;
+        if(data.size()<20){
+            size=data.size();
+        }
+        for(;a<size;a++){
             ArrayList<String> row=new ArrayList<>();
             for(int b =0; b< types.size();b++){
                 row.add(data.get(a,b).toString());
